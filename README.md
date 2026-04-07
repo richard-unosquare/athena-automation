@@ -1,1 +1,1 @@
-# athena-automation
+# automation-athena
