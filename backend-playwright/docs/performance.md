@@ -1,7 +1,14 @@
 # Performance Testing Guide
 
 Este documento describe los principales tipos de **Performance Testing** implementados en este proyecto utilizando Playwright.
+Estos cuatro tipos de pruebas permiten validar diferentes aspectos del rendimiento del sistema:
 
+* **Load Testing** → comportamiento esperado
+* **Stress Testing** → límites del sistema
+* **Spike Testing** → resiliencia ante picos
+* **Soak Testing** → estabilidad en el tiempo
+
+Implementarlos en conjunto proporciona una visión completa del rendimiento y la escalabili
 ---
 
 ## ✅ 1. Load Testing (Pruebas de Carga)
@@ -121,14 +128,3 @@ Ejecutar requests cada cierto intervalo durante 30 minutos.
 | Soak   | Resistencia en el tiempo | Constante | ⚠️ Posibles      |
 
 ---
-
-## 🚀 Conclusión
-
-Estos cuatro tipos de pruebas permiten validar diferentes aspectos del rendimiento del sistema:
-
-* **Load Testing** → comportamiento esperado
-* **Stress Testing** → límites del sistema
-* **Spike Testing** → resiliencia ante picos
-* **Soak Testing** → estabilidad en el tiempo
-
-Implementarlos en conjunto proporciona una visión completa del rendimiento y la escalabili
